@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Status-Open%20to%20Architect%20Roles-2F5D8F?style=for-the-badge" alt="Open to architect roles"/>
   <img src="https://img.shields.io/badge/Joining-Immediate-5BA4E6?style=for-the-badge" alt="Immediate joiner"/>
   <img src="https://img.shields.io/badge/Location-Kolkata%20%7C%20Bengaluru%20%7C%20Pune%20%7C%20Remote-1C3D66?style=for-the-badge" alt="Locations"/>
+  <a href="https://www.linkedin.com/in/subharaj-hait-9b24373a0"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
 
 ---
@@ -267,9 +268,7 @@ I'm an **immediate joiner**, open to roles in **Bengaluru, Pune, remote**, and i
 
 <p align="left">
   <a href="https://github.com/haitsubharaj-cell"><img src="https://img.shields.io/badge/GitHub-haitsubharaj--cell-0B1B33?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <!-- Add your LinkedIn badge here:
-  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  -->
+  <a href="https://www.linkedin.com/in/subharaj-hait-9b24373a0"><img src="https://img.shields.io/badge/LinkedIn-Subharaj%20Hait-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <!-- Add your email badge here:
   <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-2F5D8F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   -->
