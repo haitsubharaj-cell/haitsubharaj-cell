@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <style>
+            .chip { font-size: 12.5px; fill: #E6EEF8; }
+    </style>
+  </defs>
+  <rect width="1200" height="470" rx="18" fill="#0B1B33"/>
+  <text x="40" y="46" fill="#9CC9F0" font-size="14" letter-spacing="3" font-weight="600">ROLE-FIT MAP</text>
+  <text x="40" y="74" fill="#FFFFFF" font-size="22" font-weight="700">One profile, four roles — what I bring to each</text>
+
+  <!-- Card template: 270 wide, gap 20, start x=40 -->
+  <!-- 1 Data Architect -->
+  <g>
+    <rect x="40" y="100" width="265" height="340" rx="14" fill="#12294A" stroke="#2F5D8F"/>
+    <rect x="40" y="100" width="265" height="6" rx="3" fill="#5BA4E6"/>
+    <text x="60" y="140" fill="#FFFFFF" font-size="18" font-weight="700">Data Architect</text>
+    <text x="60" y="162" fill="#7FA6CF" font-size="12">Model the business, govern the data</text>
+    <g class="chip">
+      <rect x="60" y="182" width="225" height="28" rx="14" fill="#1C3D66"/><text x="76" y="201">Dimensional / star-schema modeling</text>
+      <rect x="60" y="218" width="225" height="28" rx="14" fill="#1C3D66"/><text x="76" y="237">Data Vault 2.0</text>
+      <rect x="60" y="254" width="225" height="28" rx="14" fill="#1C3D66"/><text x="76" y="273">SCD Type 1 / Type 2</text>
+      <rect x="60" y="290" width="225" height="28" rx="14" fill="#1C3D66"/><text x="76" y="309">Master Data Mgmt (Prospecta)</text>
+      <rect x="60" y="326" width="225" height="28" rx="14" fill="#1C3D66"/><text x="76" y="345">Data quality &amp; governance</text>
+      <rect x="60" y="362" width="225" height="28" rx="14" fill="#1C3D66"/><text x="76" y="381">ERD · Visio · draw.io · Lucidchart</text>
+    </g>
+  </g>
+
+  <!-- 2 Solution / Technical Architect -->
+  <g>
+    <rect x="325" y="100" width="265" height="340" rx="14" fill="#12294A" stroke="#2F5D8F"/>
+    <rect x="325" y="100" width="265" height="6" rx="3" fill="#7FB6EA"/>
+    <text x="345" y="140" fill="#FFFFFF" font-size="18" font-weight="700">Solution Architect</text>
+    <text x="345" y="162" fill="#7FA6CF" font-size="12">Technical design, end to end</text>
+    <g class="chip">
+      <rect x="345" y="182" width="225" height="28" rx="14" fill="#1C3D66"/><text x="361" y="201">Medallion lakehouse design</text>
+      <rect x="345" y="218" width="225" height="28" rx="14" fill="#1C3D66"/><text x="361" y="237">Microsoft Fabric architecture</text>
+      <rect x="345" y="254" width="225" height="28" rx="14" fill="#1C3D66"/><text x="361" y="273">Azure Data Factory · Synapse</text>
+      <rect x="345" y="290" width="225" height="28" rx="14" fill="#1C3D66"/><text x="361" y="309">Solution design docs &amp; ADRs</text>
+      <rect x="345" y="326" width="225" height="28" rx="14" fill="#1C3D66"/><text x="361" y="345">Phased delivery roadmaps</text>
+      <rect x="345" y="362" width="225" height="28" rx="14" fill="#1C3D66"/><text x="361" y="381">Stakeholder &amp; requirement mapping</text>
+    </g>
+  </g>
+
+  <!-- 3 Data Engineer -->
+  <g>
+    <rect x="610" y="100" width="265" height="340" rx="14" fill="#12294A" stroke="#2F5D8F"/>
+    <rect x="610" y="100" width="265" height="6" rx="3" fill="#9CC9F0"/>
+    <text x="630" y="140" fill="#FFFFFF" font-size="18" font-weight="700">Data Engineer</text>
+    <text x="630" y="162" fill="#7FA6CF" font-size="12">Build reliable pipelines</text>
+    <g class="chip">
+      <rect x="630" y="182" width="225" height="28" rx="14" fill="#1C3D66"/><text x="646" y="201">Advanced SQL · Spark SQL — 9 yrs</text>
+      <rect x="630" y="218" width="225" height="28" rx="14" fill="#1C3D66"/><text x="646" y="237">Python ETL automation — 9+ yrs</text>
+      <rect x="630" y="254" width="225" height="28" rx="14" fill="#1C3D66"/><text x="646" y="273">Snowflake</text>
+      <rect x="630" y="290" width="225" height="28" rx="14" fill="#1C3D66"/><text x="646" y="309">Fabric Lakehouse · Dataflows Gen2</text>
+      <rect x="630" y="326" width="225" height="28" rx="14" fill="#1C3D66"/><text x="646" y="345">Power Query (M) transformations</text>
+      <rect x="630" y="362" width="225" height="28" rx="14" fill="#1C3D66"/><text x="646" y="381">Data cleaning &amp; validation pipelines</text>
+    </g>
+  </g>
+
+  <!-- 4 Power BI Architect -->
+  <g>
+    <rect x="895" y="100" width="265" height="340" rx="14" fill="#12294A" stroke="#2F5D8F"/>
+    <rect x="895" y="100" width="265" height="6" rx="3" fill="#C9A646"/>
+    <text x="915" y="140" fill="#FFFFFF" font-size="18" font-weight="700">Power BI Architect</text>
+    <text x="915" y="162" fill="#7FA6CF" font-size="12">Semantic models people trust</text>
+    <g class="chip">
+      <rect x="915" y="182" width="225" height="28" rx="14" fill="#1C3D66"/><text x="931" y="201">Power BI — 10 yrs of BI</text>
+      <rect x="915" y="218" width="225" height="28" rx="14" fill="#1C3D66"/><text x="931" y="237">Advanced DAX measure libraries</text>
+      <rect x="915" y="254" width="225" height="28" rx="14" fill="#1C3D66"/><text x="931" y="273">Direct Lake · TMDL · .pbip</text>
+      <rect x="915" y="290" width="225" height="28" rx="14" fill="#1C3D66"/><text x="931" y="309">Tabular Editor · DAX Studio</text>
+      <rect x="915" y="326" width="225" height="28" rx="14" fill="#1C3D66"/><text x="931" y="345">Self-service BI semantic layers</text>
+      <rect x="915" y="362" width="225" height="28" rx="14" fill="#1C3D66"/><text x="931" y="381">Executive dashboard UX</text>
+    </g>
+  </g>
+</svg>

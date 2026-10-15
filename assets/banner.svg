@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1B33"/>
+      <stop offset="0.55" stop-color="#12294A"/>
+      <stop offset="1" stop-color="#1C3D66"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5BA4E6"/>
+      <stop offset="1" stop-color="#9CC9F0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <style>
+      .flow { stroke-dasharray: 6 8; animation: dash 1.6s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -28; } }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .35 } 50% { opacity: 1 } }
+      .fade { opacity: 0; animation: fadein 1s ease-out forwards; }
+      @keyframes fadein { to { opacity: 1 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+
+  <!-- Left: identity -->
+  <g>
+    <text x="60" y="92" fill="#9CC9F0" font-size="15" letter-spacing="3" font-weight="600">DATA ARCHITECT · SOLUTION ARCHITECT · DATA ENGINEER</text>
+    <text x="60" y="152" fill="#FFFFFF" font-size="52" font-weight="700">Subharaj Hait</text>
+    <rect x="60" y="170" width="120" height="4" rx="2" fill="url(#accent)"/>
+    <text x="60" y="210" fill="#D6E4F5" font-size="19">10 years turning raw enterprise data into governed,</text>
+    <text x="60" y="236" fill="#D6E4F5" font-size="19">decision-ready platforms — from source to semantic model.</text>
+    <text x="60" y="278" fill="#7FA6CF" font-size="14">Power BI · Microsoft Fabric · Snowflake · SQL · Python · MDM · Kolkata, India — open to Bengaluru, Pune &amp; remote</text>
+  </g>
+
+  <!-- Right: animated pipeline -->
+  <g transform="translate(760,70)">
+    <!-- connectors -->
+    <path class="flow" d="M70 30 H140" stroke="#5BA4E6" stroke-width="2" fill="none"/>
+    <path class="flow" d="M70 90 H140" stroke="#5BA4E6" stroke-width="2" fill="none"/>
+    <path class="flow" d="M70 150 H140" stroke="#5BA4E6" stroke-width="2" fill="none"/>
+    <path class="flow" d="M230 90 H290" stroke="#9CC9F0" stroke-width="2" fill="none"/>
+    <path class="flow" d="M140 30 V150" stroke="#5BA4E6" stroke-width="2" fill="none" stroke-dasharray="0"/>
+
+    <!-- sources -->
+    <g font-size="11" fill="#D6E4F5" text-anchor="middle">
+      <rect x="0" y="12" width="70" height="36" rx="8" fill="#163259" stroke="#2F5D8F"/>
+      <text x="35" y="35">ERP / SAP</text>
+      <rect x="0" y="72" width="70" height="36" rx="8" fill="#163259" stroke="#2F5D8F"/>
+      <text x="35" y="95">CRM / Files</text>
+      <rect x="0" y="132" width="70" height="36" rx="8" fill="#163259" stroke="#2F5D8F"/>
+      <text x="35" y="155">MDM</text>
+    </g>
+
+    <!-- medallion -->
+    <g text-anchor="middle" font-size="11" font-weight="600">
+      <rect x="140" y="40" width="90" height="100" rx="10" fill="#1B3B66" stroke="#5BA4E6"/>
+      <rect x="150" y="50" width="70" height="22" rx="5" fill="#8C6A43"/>
+      <text x="185" y="65" fill="#FFF">Bronze</text>
+      <rect x="150" y="78" width="70" height="22" rx="5" fill="#8C97A6"/>
+      <text x="185" y="93" fill="#0B1B33">Silver</text>
+      <rect x="150" y="106" width="70" height="22" rx="5" fill="#C9A646"/>
+      <text x="185" y="121" fill="#0B1B33">Gold</text>
+    </g>
+
+    <!-- semantic model / BI -->
+    <g text-anchor="middle">
+      <circle class="pulse" cx="345" cy="90" r="52" fill="none" stroke="#9CC9F0" stroke-width="1.5"/>
+      <circle cx="345" cy="90" r="40" fill="#163259" stroke="#5BA4E6" stroke-width="2"/>
+      <!-- tiny bar chart -->
+      <rect x="325" y="92" width="8" height="16" fill="#5BA4E6"/>
+      <rect x="337" y="80" width="8" height="28" fill="#7FB6EA"/>
+      <rect x="349" y="70" width="8" height="38" fill="#9CC9F0"/>
+      <rect x="361" y="86" width="8" height="22" fill="#5BA4E6"/>
+      <text x="345" y="162" fill="#D6E4F5" font-size="11">Semantic model → Insight</text>
+    </g>
+  </g>
+</svg>
